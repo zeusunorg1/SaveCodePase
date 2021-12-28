@@ -1,0 +1,204 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+a:hover {
+    color: #0a58ca;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+html {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+/* Pase */
+.pase-container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  font-size: 0.92vw;
+}
+
+.pase-img {
+  width: 100%;
+}
+
+.pase-texto {
+  text-align: left;
+  font-family: inherit;
+  color: #090708;
+  font-weight: 700;
+  position: absolute;
+  font-size: 2.8em;
+  letter-spacing: -0.03em;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: normal;
+  height: 1.5em;
+}
+
+.paseQr {
+  position: absolute;
+  left: 28%;
+  top: 33%;
+  width: 22.4%;
+}
+
+.nombre {
+  left: 54.1%;
+  top: 37.7%;
+}
+
+.dni {
+  left: 54.1%;
+  top: 49%;
+}
+
+.nacimiento {
+  left: 54.1%;
+  top: 60.4%;
+  letter-spacing: -0.06em;
+}
+
+.esquema {
+  left: 54.1%;
+  top: 71.4%;
+  letter-spacing: -0.06em;
+}
+
+/* Vacuna */
+.vacuna-container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  font-size: 0.92vw;
+}
+
+.vacuna-img {
+  width: 100%;
+}
+
+.vacuna-texto {
+  text-align: left;
+  font-family: inherit;
+  color: #090708;
+  font-weight: 700;
+  position: absolute;
+  font-size: 2.8em;
+  letter-spacing: -0.03em;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: normal;
+  height: 1.5em;
+}
+
+.vacunaQr {
+  position: absolute;
+  left: 27.8%;
+  top: 20.4%;
+  width: 22.9%;
+}
+
+.lugarAplicacion {
+  left: 27.8%;
+  height: 20.3%;
+  line-height: 1.1em;
+  top: 61.8%;
+  letter-spacing: -0.057em;
+  width: 48%;
+}
+
+.dosis {
+  left: 53.9%;
+  top: 24.2%;
+  letter-spacing: -0.065em;
+  width: 42%;
+}
+
+.fechaAplicacion {
+  left: 76.8%;
+  top: 60.8%;
+  letter-spacing: -0.065em;
+  font-size: 2.8em;
+  width: 42%;
+}
+
+.lote {
+  left: 53.9%;
+  top: 39.3%;
+  letter-spacing: -0.065em;
+  width: 20%;
+}
+
+.dosis {
+  left: 77.3%;
+  top: 39.8%;
+  letter-spacing: -0.065em;
+  width: 20%;
+}
+
+.vacunaNombre {
+  left: 53.9%;
+  top: 24.2%;
+  letter-spacing: -0.065em;
+  width: 42%;
+}

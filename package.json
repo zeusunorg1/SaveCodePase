@@ -1,0 +1,38 @@
+{
+  "name": "pase-nazitario",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pase Barranitario",
+  "author": "Fidel Adorni",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "buffer-browserify": "^0.2.5",
+    "crypto-browserify": "^3.12.0",
+    "gatsby": "^4.4.0",
+    "gatsby-background-image": "^1.6.0",
+    "gatsby-plugin-emotion": "^7.4.0",
+    "gatsby-plugin-google-analytics": "^4.4.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^4.4.0",
+    "gatsby-plugin-use-query-params": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "qrcode": "^1.5.0",
+    "react": "^17.0.1",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^17.0.1",
+    "stream-browserify": "^3.0.0",
+    "use-query-params": "^1.2.3",
+    "util": "^0.12.4"
+  }
+}
